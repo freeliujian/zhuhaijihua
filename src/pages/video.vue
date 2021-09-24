@@ -149,9 +149,25 @@ export default {
           title:'中基层解读'
         },]
       }else if(id==='guiyang'){
-        return {
-          title:'贵阳分行'
-        }
+        return [{
+        img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E9%AB%98%E5%B1%82%E7%A0%94%E8%AE%A8.png',
+          title:'高层研讨'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E5%85%B1%E5%88%9B%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA.png',
+          title:'共创成果展示'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E5%85%B1%E5%88%9B%E5%B0%8F%E7%BB%84%E8%AE%A8%E8%AE%BA.png',
+          title:'共创小组讨论'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E8%B0%83%E7%A0%94%E8%AE%BF%E8%B0%88.png',
+          title:'调研访谈'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E8%B0%83%E7%A0%94%E8%AE%BF%E8%B0%88-.png',
+          title:'调研访谈-'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/%E4%B8%AD%E5%9F%BA%E5%B1%82%E8%A7%A3%E8%AF%BB.png',
+          title:'中基层解读'
+        },]
       }
       else if(id==='jinan'){
         return {

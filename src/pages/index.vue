@@ -49,28 +49,14 @@
        
         <div class="content-charset">
           
-          <div class="content-charset-content" v-for="(item,index) in 3" :key="item">
-            <div class="list" style="padding-top:0" v-if="index===0">
-              <a href="https://mp.weixin.qq.com/s/BVc0A4X7bhcRzG3B4m1ilQ">
-                  工会积极落实“我为群众办实事”实践活动，启动开展2021年“竹海计划”
+          <div class="content-charset-content" v-for="(item,index) in info" :key="index">
+            <div class="list" :style="{paddingTop:(index===0)?0:''}">
+              <a :href="item.path">
+                  {{item.content}}
               </a>
               
             </div>
-            <div class="list" v-else-if="index===1">
-              <a href="https://mp.weixin.qq.com/s/Pb6MhG19_4DXAvI-Xio93A">
-                办实事•创幸福 | “竹海计划”走进石家庄分行
-              </a>
-              <!-- <span @click="detailRouter()">
-                
-              </span> -->
-              
-            </div>
-            <div class="list" v-else>
-              <a href="https://mp.weixin.qq.com/s/Y_HPLVMmfOWJGa_J9jlo3w">
-               见证改变•助力幸福 | “竹海计划”走进青岛分行
-              </a>
-              
-            </div>
+            
           </div>
         </div>
         
@@ -126,13 +112,31 @@ export default {
       },{
         route:'huhehaote',
         img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/images/plan06.png'
-      },]
+      },],
+      info:[
+        {
+          path:'https://mp.weixin.qq.com/s/BVc0A4X7bhcRzG3B4m1ilQ',
+          content:'工会积极落实“我为群众办实事”实践活动，启动开展2021年“竹海计划”'
+        },
+         {
+          path:'https://mp.weixin.qq.com/s/Pb6MhG19_4DXAvI-Xio93A',
+          content:' 办实事•创幸福 | “竹海计划”走进石家庄分行'
+        },
+         {
+          path:'https://mp.weixin.qq.com/s/Y_HPLVMmfOWJGa_J9jlo3w',
+          content:'见证改变•助力幸福 | “竹海计划”走进青岛分行”'
+        },
+         {
+          path:'https://t.1yb.co/BjT3',
+          content:'【石家庄分行】积极推进“竹海计划”幸福实事工作'
+        },
+      ]
     };
   },
   methods:{
     hanlClick(route){
      
-      if(route!='shijiazhuang' && route!='qingdao'){
+      if(route!='shijiazhuang' && route!='qingdao' && route!='guiyang'){
         this.$router.push(`/404/${route}`)
       }else {
          this.$router.push(`/video/${route}`)
