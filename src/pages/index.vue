@@ -130,6 +130,10 @@ export default {
           path:'https://t.1yb.co/BjT3',
           content:'【石家庄分行】积极推进“竹海计划”幸福实事工作'
         },
+        {
+          path:'https://mp.weixin.qq.com/s/q4XPdDoKjTnKSenSeNZdgw',
+          content:'办实事•创幸福 | “竹海计划”走进济南分行'
+        }
       ]
     };
   },
