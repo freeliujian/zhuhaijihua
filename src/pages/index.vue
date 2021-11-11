@@ -63,6 +63,7 @@
               v-for="(item, index) in info2"
               :key="index"
             >
+            
               <div class="list" :style="{ paddingTop: index === 0 ? 0 : '' }">
                 <a :href="item.path">
                   {{ item.content }}
@@ -179,14 +180,14 @@ export default {
         },
         {
           path: "https://mp.weixin.qq.com/s/DPCHi6-lb68uXd1fheLj8w",
-          content: "【石家庄分行】开展“竹海计划”系列幸福指数提升工作",
+          content: "办实事•创幸福 | “竹海计划”走进贵阳分行",
         },
       ],
     };
   },
   methods: {
     hanlClick(route) {
-      if (route != "shijiazhuang" && route != "qingdao" && route != "guiyang") {
+      if (route != "shijiazhuang" && route != "qingdao" && route != "guiyang" && route !='jinan' && route != 'zhengzhou' ) {
         this.$router.push(`/404/${route}`);
       } else {
         this.$router.push(`/video/${route}`);
@@ -268,6 +269,8 @@ a {
   min-height: 170px;
 
   .list {
+    box-sizing: border-box;
+    height: 40px;
     font-size: 0.35rem;
     line-height: 1.1;
     border-bottom: solid 1px #ebeef5;

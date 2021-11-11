@@ -170,14 +170,46 @@ export default {
         },]
       }
       else if(id==='jinan'){
-        return {
-          title:'济南分行'
-        }
+          return [{
+        img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E5%85%B1%E5%88%9B%E7%8E%B0%E5%9C%BA.png',
+          title:'共创现场'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E5%B0%8F%E7%BB%84%E8%AE%A8%E8%AE%BA.png',
+          title:'小组讨论'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E6%95%B0%E6%8D%AE%E8%A7%A3%E8%AF%BB.png',
+          title:'数据解读'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E6%95%B0%E6%8D%AE%E8%A7%A3%E8%AF%BB1.png',
+          title:'数据解读1'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E7%8E%B0%E5%9C%BA%E8%AE%A8%E8%AE%BA.png',
+          title:'现场讨论-'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/%E9%AB%98%E5%B1%82%E7%A0%94%E8%AE%A8.png',
+          title:'高层研讨'
+        },]
       }
       else if(id==='zhengzhou'){
-        return {
-          title:'郑州分行'
-        }
+          return [{
+        img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E5%85%B1%E5%88%9B%E7%8E%B0%E5%9C%BA.png',
+          title:'共创现场'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E5%85%B1%E5%88%9B%E7%8E%B0%E5%9C%BA1.png',
+          title:'共创现场1'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E5%B0%8F%E7%BB%84%E8%AE%A8%E8%AE%BA.png',
+          title:'小组讨论'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E6%95%B0%E6%8D%AE%E8%A7%A3%E8%AF%BB.png',
+          title:'数据解读'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E8%B0%83%E7%A0%94%E8%AE%BF%E8%B0%88.png',
+          title:'调研访谈'
+        },{
+          img:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/%E9%AB%98%E5%B1%82%E7%A0%94%E8%AE%A8.png',
+          title:'高层研讨'
+        },]
       }
       else if(id==='huhehaote'){
         return {
@@ -224,17 +256,17 @@ export default {
         return 'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%9D%92%E5%B2%9B%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/qingdaovideo.mp4'
       }else if(id==='guiyang'){
         return {
-          title:'贵阳分行'
+          title:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E8%A7%86%E9%A2%912.mp4'
         }
       }
       else if(id==='jinan'){
         return {
-          title:'济南分行'
+          title:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/2dfe19a2021b65c4e2a04376c51a1c87.mp4'
         }
       }
       else if(id==='zhengzhou'){
         return {
-          title:'郑州分行'
+          title:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%83%91%E5%B7%9E%E5%88%86%E8%A1%8C/f0aeb12850c25ba262ed6912eefefa3c.mp4'
         }
       }
       else if(id==='huhehaote'){
