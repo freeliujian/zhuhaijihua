@@ -255,14 +255,12 @@ export default {
       }else if(id==='qingdao'){
         return 'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E9%9D%92%E5%B2%9B%E5%88%86%E8%A1%8C%E7%89%A9%E6%96%99/qingdaovideo.mp4'
       }else if(id==='guiyang'){
-        return {
-          title:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E8%A7%86%E9%A2%912.mp4'
-        }
+        return 'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E8%B4%B5%E9%98%B3%E8%A7%86%E9%A2%912.mp4'
+      
       }
       else if(id==='jinan'){
-        return {
-          title:'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/2dfe19a2021b65c4e2a04376c51a1c87.mp4'
-        }
+        return 'https://iwedoing-1.oss-cn-hangzhou.aliyuncs.com/report/%E6%B5%8E%E5%8D%97%E5%88%86%E8%A1%8C/2dfe19a2021b65c4e2a04376c51a1c87.mp4'
+        
       }
       else if(id==='zhengzhou'){
         return {
